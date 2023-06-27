@@ -371,3 +371,17 @@ alternative_sprites(replace_trees, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/trees
     [0,     402*20, 345, 400, -172, -330] //1716
 }
 
+
+
+/////////////////////////////////////////////////////
+//Railway Stuff
+/////////////////////////////////////////////////////
+template catenary() {
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+}
+
+replace replacec_catenary(, "gfx/dummy_sprite_8bbp.png"){catenary}
+
