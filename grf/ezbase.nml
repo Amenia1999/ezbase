@@ -19,9 +19,7 @@ template soccer() {
     //
 }
 
-replace replace_soccer(1479, "gfx/dummy_sprite_8bbp.png") {
-    soccer()
-}
+replace replace_soccer(1479, "gfx/dummy_sprite_8bbp.png") {soccer()}
 
 
 alternative_sprites(replace_soccer, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/city/soccer_0.png"){
