@@ -139,18 +139,18 @@ alternative_sprites(replace_street_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/st
 }
 
 template depot_0(){
-    [1107, 94, 61, 91, 63, 7] //1408
-    [707, 0, 232, 208, 19, -147] //1409
-    [242, 100, 62, 66, -106, 7] //1410
-    [0, 0, 232, 208, -232, -152] //1411
-    [1175, 0, 231, 208, -224 ,-144] //1412
-    [469, 0, 234, 208, 16, -153] //1413
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
+    [0, 0, 10, 10, 0, 0]
 }
 
 
-replace replace_depot_0(1408, "gfx/depo/depot_spritesheet_8bpp.png"){depot_0()}
+replace replace_depot_0(1408, "gfx/dummy_sprite_8bbp.png"){depot_0()}
 
-alternative_sprites(replace_depot_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/depo/depot_spritesheet_32bpp.png"){
+alternative_sprites(replace_depot_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/depo/depot_spritesheet_32bpp(masked).png", "gfx/depo/depot_spritesheet_8bpp_mask.png"){
     [1107, 94, 61, 91, 63, 7] //1408
     [707, 0, 232, 208, 19, -147] //1409
     [242, 100, 62, 66, -106, 7] //1410
