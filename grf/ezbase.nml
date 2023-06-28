@@ -478,11 +478,15 @@ alternative_sprites(replace_trees, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/trees
 //Landscape
 /////////////////////////////////////////////////////
 
+template antenna(){
+    [0, 0, 10, 10, 0, 0 ]
+}
 
+replace replace_antenna(2601, "gfx/dummy_sprite_8bbp.png"){antenna()}
 
-
-
-
+alternative_sprites(replace_antenna, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/other/antenna.png"){
+    [0, 0, 59, 245, 0, 0] 
+}
 
 
 /////////////////////////////////////////////////////
