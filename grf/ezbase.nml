@@ -150,13 +150,13 @@ template depot_0(){
 
 replace replace_depot_0(1408, "gfx/dummy_sprite_8bbp.png"){depot_0()}
 
-alternative_sprites(replace_depot_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/depo/depot_spritesheet_32bpp(masked).png", "gfx/depo/depot_spritesheet_8bpp_mask.png"){
-    [1107, 94, 61, 91, 63, 7] //1408
-    [707, 0, 232, 208, 19, -147] //1409
-    [242, 100, 62, 66, -106, 7] //1410
-    [0, 0, 232, 208, -232, -152] //1411
-    [1175, 0, 231, 208, -224 ,-144] //1412
-    [469, 0, 234, 208, 16, -153] //1413
+alternative_sprites(replace_depot_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/depo/depot_spritesheet_32bpp.png", "gfx/depo/depot_spritesheet_8bpp_mask.png"){
+    [10, 75, 107, 106, 12, 13] //1408
+    [123, 0, 242, 205, -2, -142] //1409
+    [450, 0, 134, 145, -123, -1] //1410
+    [613, 0, 238, 203, -237, -144, ANIM] //1411
+    [868, 0, 238, 203, -235 ,-143] //1412
+    [1114, 0, 235, 198, -9 ,-144, ANIM] //1413
 }
 
 
@@ -506,8 +506,8 @@ template antenna(){
 
 replace replace_antenna(2601, "gfx/dummy_sprite_8bbp.png"){antenna()}
 
-alternative_sprites(replace_antenna, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/other/antenna.png"){
-    [0, 0, 59, 245, -232, -232] //2601
+alternative_sprites(replace_antenna, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/other/antenna_32bpp.png", "gfx/other/antenna_8bpp_mask.png"){
+    [0, 0, 59, 245, -32, -232, ANIM] //2601
 }
 
 
