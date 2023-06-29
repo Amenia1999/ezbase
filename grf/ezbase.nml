@@ -506,8 +506,20 @@ template antenna(){
 
 replace replace_antenna(2601, "gfx/dummy_sprite_8bbp.png"){antenna()}
 
+
 alternative_sprites(replace_antenna, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/other/antenna_32bpp.png", "gfx/other/antenna_8bpp_mask.png"){
     [0, 0, 59, 245, -32, -232, ANIM] //2601
+}
+
+
+template lighthouse(){
+    [0, 0, 10, 10, 0, 0 ]
+}
+
+replace replace_lighthouse(2602, "gfx/dummy_sprite_8bbp.png"){lighthouse()}
+
+alternative_sprites(replace_lighthouse, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/other/lighthouse_32bpp.png"){
+    [0, 0, 160, 326, -64, -240] //2602
 }
 
 
